@@ -51,5 +51,6 @@ public class AmicableNumberLauncher {
         }
 
         System.out.println("Anzahl der Zahlenpaare: " + trueSet.size());
+        System.out.println("BYEEE");
     }
 }
