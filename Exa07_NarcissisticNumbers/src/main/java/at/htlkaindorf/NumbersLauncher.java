@@ -21,6 +21,8 @@ public class NumbersLauncher {
         System.out.print("number of worker threads: ");
         int threadCount = scanner.nextInt();
 
+        System.out.println("Lets goooo");
+
         ExecutorService executor = Executors.newFixedThreadPool(threadCount);
         List<Callable<List<Integer>>> numbers = new ArrayList<>();
 
